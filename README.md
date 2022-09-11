@@ -25,3 +25,7 @@ Bottom line: the project team will be kind humans. Please be the same in return.
 Please submit a contribution idea through an issue ticket before working on a pull request. Don't submit a pull request unless it has been discussed through an issue ticket. We will happily respond to all constructive inquiries.
 
 As this project evolves, the project team will update this readme and how contributions are accepted.
+
+## License
+
+[MIT](LICENSE)
