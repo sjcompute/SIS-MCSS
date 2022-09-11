@@ -87,7 +87,7 @@
 - Classroom: single room at a school where groups of students and teachers participate in class sessions (poorly worded)
 - Teacher: Person who teaches and takes attendance
 - Student: Person who attends classes and receives lessons
-- Subject: A lesson plan/ subject that us used to teach a class
+- Subject: A lesson plan that us used to teach a class
 - Class: A schedule of lessons covering a subject given by a specific teacher to a prescribed group of students
 - Lesson: A single scheduled session of a class
 
@@ -105,8 +105,8 @@
 
 ## References
 
-[Monrovia Consolidated School System (MCSS)](https://mcssliberia.org/)
-[SIS-MCSS GitHub repo](https://github.com/code4nova/SIS-MCSS)
-[How to Make PWAs Installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
-[Learn PWA](https://web.dev/learn/pwa/)
-[PWA Minimus: A minimal PWA checklist](https://mobiforge.com/design-development/pwa-minimus-a-minimal-pwa-checklist)
+- [Monrovia Consolidated School System (MCSS)](https://mcssliberia.org/)
+- [SIS-MCSS GitHub repo](https://github.com/code4nova/SIS-MCSS)
+- [How to Make PWAs Installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
+- [Learn PWA](https://web.dev/learn/pwa/)
+- [PWA Minimus: A minimal PWA checklist](https://mobiforge.com/design-development/pwa-minimus-a-minimal-pwa-checklist)
