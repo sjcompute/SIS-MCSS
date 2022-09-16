@@ -36,7 +36,7 @@
 - cache-able front-end (pwa)
 - efficient data exchange w/API
   - RESTful
-  - GraphQL
+  - ~~GraphQL~~: Too complex and back end can limit data transfer with routes
 - Separate admin/analyst interface
 
 ### Back-end
@@ -56,11 +56,36 @@
 - [Svelte](https://svelte.dev/)
 - [Lit](https://lit.dev/docs/)
 - Written off for size reasons
-  - React
-  - Angular
-  - Ember
+  - ~~React~~
+  - ~~Angular~~
+  - ~~Ember~~
+
+### Admin interface
+
+*Needs discussed.*
+
+- Build our own or incorporate existing?
+- Direct access to database or use REST endpoints?
+
+```mermaid
+graph TD;
+ Client-->REST_Service;
+ Admin-->REST_Service;
+ REST_Service-->Database;
+```
+
+*or*
+
+```mermaid
+graph TD;
+ Client-->REST_Service;
+ Admin-->Database;
+ REST_Service-->Database;
+```
 
 ### Backend options
+
+Least constraints here- it will serve as an API endpoint for clients and admin interface
 
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/#)
 - [Django](https://www.djangoproject.com/)
