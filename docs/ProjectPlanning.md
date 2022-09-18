@@ -48,17 +48,17 @@
 
 ### Front end framework options
 
-- [Astro](https://astro.build/)
 - [Preact](https://preactjs.com/)
 - [Vue](https://vuejs.org/)
 - [Mithril](https://mithril.js.org/)
 - [SolidJS](https://www.solidjs.com/)
 - [Svelte](https://svelte.dev/)
 - [Lit](https://lit.dev/docs/)
-- Written off for size reasons
-  - ~~React~~
-  - ~~Angular~~
-  - ~~Ember~~
+- Written off
+  - ~~React~~: Size
+  - ~~Angular~~: Size
+  - ~~Ember~~: Size
+  - ~~Astro~~: [Their docs says that it's not good for apps](https://docs.astro.build/en/concepts/why-astro/#content-focused)
 
 ### Admin interface
 
