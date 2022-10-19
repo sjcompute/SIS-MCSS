@@ -128,6 +128,35 @@ Least constraints here- it will serve as an API endpoint for clients and admin i
 - Classes
 - Lessons
 
+## Starting ERD
+
+*still needs attendace info*
+
+```mermaid
+erDiagram
+  course ||--|{ student :attends
+  course  {
+    string course_name
+    int id PK
+    int student_id FK
+    int teacher_id FK
+  }
+  course ||--|{ teacher :teaches
+  teacher {
+    int id PK
+    string first_name
+    string last_name
+    string email
+    hash password
+  }
+  student {
+    int id PK
+    string first_name
+    string last_name
+  }
+
+```
+
 ## References
 
 - [Monrovia Consolidated School System (MCSS)](https://mcssliberia.org/)
